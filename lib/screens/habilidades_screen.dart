@@ -15,7 +15,10 @@ class _HabilidadesScreenState extends State<HabilidadesScreen> {
         title: const Text('Habilidades'),
       ),
       body: const Center(
-        child: Text('Habilidades'),
+        child: Text(
+          'Java\nPython\nDart\nFlutter\nHTML\nCSS\nJavaScript\nSQL\nGit\nGitHub\nFirebase\nEAFIT NODO',
+          style: TextStyle(fontSize: 20),
+        ),
       ),
     );
   }
